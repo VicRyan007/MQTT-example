@@ -1,0 +1,367 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM8 instead...[0m
+[0;33m--- esp-idf-monitor 1.6.2 on \\.\COM8 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40081b3d: panic_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400897c1: esp_system_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4009150d: __assert_func at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x4008a4d2: spinlock_acquire at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_hw_support/include/spinlock.h:142 (discriminator 1)
+---  (inlined by) xPortEnterCriticalTimeout at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479 (discriminator 1)
+--- 0x4008a09c: vPortEnterCritical at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xQueueSemaphoreTake at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1727
+--- 0x400e0704: example_wifi_sta_do_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:174
+--- 0x400e08ec: example_wifi_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:248
+--- 0x400e01c3: example_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/connect.c:99
+--- 0x400d9419: app_main at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/protocols/mqtt5/main/app_main.c:302
+--- 0x4016fea7: main_task at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:209 (discriminator 13)
+--- 0x4008a265: vPortTaskWrapper at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40081b3d: panic_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400897c1: esp_system_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4009150d: __assert_func at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x4008a4d2: spinlock_acquire at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_hw_support/include/spinlock.h:142 (discriminator 1)
+---  (inlined by) xPortEnterCriticalTimeout at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479 (discriminator 1)
+--- 0x4008a09c: vPortEnterCritical at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xQueueSemaphoreTake at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1727
+--- 0x400e0704: example_wifi_sta_do_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:174
+--- 0x400e08ec: example_wifi_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:248
+--- 0x400e01c3: example_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/connect.c:99
+--- 0x400d9419: app_main at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/protocols/mqtt5/main/app_main.c:302
+--- 0x4016fea7: main_task at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:209 (discriminator 13)
+--- 0x4008a265: vPortTaskWrapper at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40081b3d: panic_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400897c1: esp_system_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4009150d: __assert_func at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x4008a4d2: spinlock_acquire at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_hw_support/include/spinlock.h:142 (discriminator 1)
+---  (inlined by) xPortEnterCriticalTimeout at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479 (discriminator 1)
+--- 0x4008a09c: vPortEnterCritical at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xQueueSemaphoreTake at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1727
+--- 0x400e0704: example_wifi_sta_do_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:174
+--- 0x400e08ec: example_wifi_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:248
+--- 0x400e01c3: example_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/connect.c:99
+--- 0x400d9419: app_main at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/protocols/mqtt5/main/app_main.c:302
+--- 0x4016fea7: main_task at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:209 (discriminator 13)
+--- 0x4008a265: vPortTaskWrapper at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40081b3d: panic_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400897c1: esp_system_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4009150d: __assert_func at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x4008a4d2: spinlock_acquire at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_hw_support/include/spinlock.h:142 (discriminator 1)
+---  (inlined by) xPortEnterCriticalTimeout at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479 (discriminator 1)
+--- 0x4008a09c: vPortEnterCritical at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xQueueSemaphoreTake at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1727
+--- 0x400e0704: example_wifi_sta_do_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:174
+--- 0x400e08ec: example_wifi_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:248
+--- 0x400e01c3: example_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/connect.c:99
+--- 0x400d9419: app_main at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/protocols/mqtt5/main/app_main.c:302
+--- 0x4016fea7: main_task at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:209 (discriminator 13)
+--- 0x4008a265: vPortTaskWrapper at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40081b3d: panic_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400897c1: esp_system_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4009150d: __assert_func at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x4008a4d2: spinlock_acquire at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_hw_support/include/spinlock.h:142 (discriminator 1)
+---  (inlined by) xPortEnterCriticalTimeout at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479 (discriminator 1)
+--- 0x4008a09c: vPortEnterCritical at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xQueueSemaphoreTake at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1727
+--- 0x400e0704: example_wifi_sta_do_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:174
+--- 0x400e08ec: example_wifi_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:248
+--- 0x400e01c3: example_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/connect.c:99
+--- 0x400d9419: app_main at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/protocols/mqtt5/main/app_main.c:302
+--- 0x4016fea7: main_task at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:209 (discriminator 13)
+--- 0x4008a265: vPortTaskWrapper at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40081b3d: panic_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400897c1: esp_system_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4009150d: __assert_func at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x4008a4d2: spinlock_acquire at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_hw_support/include/spinlock.h:142 (discriminator 1)
+---  (inlined by) xPortEnterCriticalTimeout at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479 (discriminator 1)
+--- 0x4008a09c: vPortEnterCritical at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xQueueSemaphoreTake at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1727
+--- 0x400e0704: example_wifi_sta_do_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:174
+--- 0x400e08ec: example_wifi_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:248
+--- 0x400e01c3: example_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/connect.c:99
+--- 0x400d9419: app_main at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/protocols/mqtt5/main/app_main.c:302
+--- 0x4016fea7: main_task at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:209 (discriminator 13)
+--- 0x4008a265: vPortTaskWrapper at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40081b3d: panic_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400897c1: esp_system_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4009150d: __assert_func at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x4008a4d2: spinlock_acquire at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_hw_support/include/spinlock.h:142 (discriminator 1)
+---  (inlined by) xPortEnterCriticalTimeout at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479 (discriminator 1)
+--- 0x4008a09c: vPortEnterCritical at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xQueueSemaphoreTake at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1727
+--- 0x400e0704: example_wifi_sta_do_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:174
+--- 0x400e08ec: example_wifi_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:248
+--- 0x400e01c3: example_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/connect.c:99
+--- 0x400d9419: app_main at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/protocols/mqtt5/main/app_main.c:302
+--- 0x4016fea7: main_task at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:209 (discriminator 13)
+--- 0x4008a265: vPortTaskWrapper at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40081b3d: panic_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400897c1: esp_system_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4009150d: __assert_func at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x4008a4d2: spinlock_acquire at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_hw_support/include/spinlock.h:142 (discriminator 1)
+---  (inlined by) xPortEnterCriticalTimeout at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479 (discriminator 1)
+--- 0x4008a09c: vPortEnterCritical at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xQueueSemaphoreTake at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1727
+--- 0x400e0704: example_wifi_sta_do_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:174
+--- 0x400e08ec: example_wifi_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:248
+--- 0x400e01c3: example_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/connect.c:99
+--- 0x400d9419: app_main at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/protocols/mqtt5/main/app_main.c:302
+--- 0x4016fea7: main_task at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:209 (discriminator 13)
+--- 0x4008a265: vPortTaskWrapper at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40081b3d: panic_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400897c1: esp_system_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4009150d: __assert_func at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x4008a4d2: spinlock_acquire at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_hw_support/include/spinlock.h:142 (discriminator 1)
+---  (inlined by) xPortEnterCriticalTimeout at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479 (discriminator 1)
+--- 0x4008a09c: vPortEnterCritical at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xQueueSemaphoreTake at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1727
+--- 0x400e0704: example_wifi_sta_do_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:174
+--- 0x400e08ec: example_wifi_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:248
+--- 0x400e01c3: example_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/connect.c:99
+--- 0x400d9419: app_main at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/protocols/mqtt5/main/app_main.c:302
+--- 0x4016fea7: main_task at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:209 (discriminator 13)
+--- 0x4008a265: vPortTaskWrapper at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40081b3d: panic_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400897c1: esp_system_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4009150d: __assert_func at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x4008a4d2: spinlock_acquire at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_hw_support/include/spinlock.h:142 (discriminator 1)
+---  (inlined by) xPortEnterCriticalTimeout at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479 (discriminator 1)
+--- 0x4008a09c: vPortEnterCritical at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xQueueSemaphoreTake at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1727
+--- 0x400e0704: example_wifi_sta_do_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:174
+--- 0x400e08ec: example_wifi_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:248
+--- 0x400e01c3: example_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/connect.c:99
+--- 0x400d9419: app_main at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/protocols/mqtt5/main/app_main.c:302
+--- 0x4016fea7: main_task at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:209 (discriminator 13)
+--- 0x4008a265: vPortTaskWrapper at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40081b3d: panic_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400897c1: esp_system_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4009150d: __assert_func at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x4008a4d2: spinlock_acquire at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_hw_support/include/spinlock.h:142 (discriminator 1)
+---  (inlined by) xPortEnterCriticalTimeout at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479 (discriminator 1)
+--- 0x4008a09c: vPortEnterCritical at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xQueueSemaphoreTake at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1727
+--- 0x400e0704: example_wifi_sta_do_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:174
+--- 0x400e08ec: example_wifi_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:248
+--- 0x400e01c3: example_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/connect.c:99
+--- 0x400d9419: app_main at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/protocols/mqtt5/main/app_main.c:302
+--- 0x4016fea7: main_task at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:209 (discriminator 13)
+--- 0x4008a265: vPortTaskWrapper at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40081b3d: panic_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400897c1: esp_system_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4009150d: __assert_func at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x4008a4d2: spinlock_acquire at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_hw_support/include/spinlock.h:142 (discriminator 1)
+---  (inlined by) xPortEnterCriticalTimeout at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479 (discriminator 1)
+--- 0x4008a09c: vPortEnterCritical at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xQueueSemaphoreTake at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1727
+--- 0x400e0704: example_wifi_sta_do_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:174
+--- 0x400e08ec: example_wifi_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:248
+--- 0x400e01c3: example_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/connect.c:99
+--- 0x400d9419: app_main at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/protocols/mqtt5/main/app_main.c:302
+--- 0x4016fea7: main_task at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:209 (discriminator 13)
+--- 0x4008a265: vPortTaskWrapper at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40081b3d: panic_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400897c1: esp_system_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4009150d: __assert_func at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x4008a4d2: spinlock_acquire at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_hw_support/include/spinlock.h:142 (discriminator 1)
+---  (inlined by) xPortEnterCriticalTimeout at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479 (discriminator 1)
+--- 0x4008a09c: vPortEnterCritical at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xQueueSemaphoreTake at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1727
+--- 0x400e0704: example_wifi_sta_do_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:174
+--- 0x400e08ec: example_wifi_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:248
+--- 0x400e01c3: example_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/connect.c:99
+--- 0x400d9419: app_main at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/protocols/mqtt5/main/app_main.c:302
+--- 0x4016fea7: main_task at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:209 (discriminator 13)
+--- 0x4008a265: vPortTaskWrapper at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40081b3d: panic_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400897c1: esp_system_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4009150d: __assert_func at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x4008a4d2: spinlock_acquire at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_hw_support/include/spinlock.h:142 (discriminator 1)
+---  (inlined by) xPortEnterCriticalTimeout at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479 (discriminator 1)
+--- 0x4008a09c: vPortEnterCritical at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xQueueSemaphoreTake at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1727
+--- 0x400e0704: example_wifi_sta_do_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:174
+--- 0x400e08ec: example_wifi_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:248
+--- 0x400e01c3: example_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/connect.c:99
+--- 0x400d9419: app_main at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/protocols/mqtt5/main/app_main.c:302
+--- 0x4016fea7: main_task at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:209 (discriminator 13)
+--- 0x4008a265: vPortTaskWrapper at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40081b3d: panic_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400897c1: esp_system_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4009150d: __assert_func at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x4008a4d2: spinlock_acquire at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_hw_support/include/spinlock.h:142 (discriminator 1)
+---  (inlined by) xPortEnterCriticalTimeout at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479 (discriminator 1)
+--- 0x4008a09c: vPortEnterCritical at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xQueueSemaphoreTake at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1727
+--- 0x400e0704: example_wifi_sta_do_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:174
+--- 0x400e08ec: example_wifi_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:248
+--- 0x400e01c3: example_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/connect.c:99
+--- 0x400d9419: app_main at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/protocols/mqtt5/main/app_main.c:302
+--- 0x4016fea7: main_task at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:209 (discriminator 13)
+--- 0x4008a265: vPortTaskWrapper at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40081b3d: panic_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400897c1: esp_system_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4009150d: __assert_func at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x4008a4d2: spinlock_acquire at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_hw_support/include/spinlock.h:142 (discriminator 1)
+---  (inlined by) xPortEnterCriticalTimeout at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479 (discriminator 1)
+--- 0x4008a09c: vPortEnterCritical at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xQueueSemaphoreTake at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1727
+--- 0x400e0704: example_wifi_sta_do_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:174
+--- 0x400e08ec: example_wifi_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:248
+--- 0x400e01c3: example_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/connect.c:99
+--- 0x400d9419: app_main at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/protocols/mqtt5/main/app_main.c:302
+--- 0x4016fea7: main_task at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:209 (discriminator 13)
+--- 0x4008a265: vPortTaskWrapper at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40081b3d: panic_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400897c1: esp_system_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4009150d: __assert_func at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x4008a4d2: spinlock_acquire at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_hw_support/include/spinlock.h:142 (discriminator 1)
+---  (inlined by) xPortEnterCriticalTimeout at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479 (discriminator 1)
+--- 0x4008a09c: vPortEnterCritical at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xQueueSemaphoreTake at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1727
+--- 0x400e0704: example_wifi_sta_do_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:174
+--- 0x400e08ec: example_wifi_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:248
+--- 0x400e01c3: example_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/connect.c:99
+--- 0x400d9419: app_main at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/protocols/mqtt5/main/app_main.c:302
+--- 0x4016fea7: main_task at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:209 (discriminator 13)
+--- 0x4008a265: vPortTaskWrapper at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40081b3d: panic_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400897c1: esp_system_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4009150d: __assert_func at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x4008a4d2: spinlock_acquire at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_hw_support/include/spinlock.h:142 (discriminator 1)
+---  (inlined by) xPortEnterCriticalTimeout at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479 (discriminator 1)
+--- 0x4008a09c: vPortEnterCritical at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xQueueSemaphoreTake at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1727
+--- 0x400e0704: example_wifi_sta_do_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:174
+--- 0x400e08ec: example_wifi_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:248
+--- 0x400e01c3: example_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/connect.c:99
+--- 0x400d9419: app_main at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/protocols/mqtt5/main/app_main.c:302
+--- 0x4016fea7: main_task at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:209 (discriminator 13)
+--- 0x4008a265: vPortTaskWrapper at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40081b3d: panic_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400897c1: esp_system_abort at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4009150d: __assert_func at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x4008a4d2: spinlock_acquire at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/esp_hw_support/include/spinlock.h:142 (discriminator 1)
+---  (inlined by) xPortEnterCriticalTimeout at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479 (discriminator 1)
+--- 0x4008a09c: vPortEnterCritical at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:567
+---  (inlined by) xQueueSemaphoreTake at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1727
+--- 0x400e0704: example_wifi_sta_do_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:174
+--- 0x400e08ec: example_wifi_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:248
+--- 0x400e01c3: example_connect at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/common_components/protocol_examples_common/connect.c:99
+--- 0x400d9419: app_main at C:/Users/Ryann/esp/v5.4.1/esp-idf/examples/protocols/mqtt5/main/app_main.c:302
+--- 0x4016fea7: main_task at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:209 (discriminator 13)
+--- 0x4008a265: vPortTaskWrapper at C:/Users/Ryann/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 7decf697715223a50cad690176ccb279d15bf0075bd315bef0e01521c6c73eb6[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0m
+Traceback (most recent call last):
+  File "C:\Users\Ryann\esp\v5.4.1\esp-idf\tools/idf_monitor.py", line 11, in <module>
+    sys.exit(subprocess.run([sys.executable, '-m', 'esp_idf_monitor'] + sys.argv[1:]).returncode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\subprocess.py", line 1201, in communicate
+    self.wait()
+  File "C:\Python312\Lib\subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\subprocess.py", line 1590, in _wait
+    result = _winapi.WaitForSingleObject(self._handle,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
