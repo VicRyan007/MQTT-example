@@ -65,27 +65,8 @@ idf.py -p COMx monitor
   DATA=1
   LED ACESO
   ```
-
-## Estrutura do projeto
-- `main/app_main.c`: Código principal do controle do LED via MQTT
-- `sdkconfig`: Configurações do projeto
-- `README.md`: Este guia
-
-## Observações
-- Não envie a pasta `build/` para o repositório.
-- Inclua o link do vídeo de demonstração no README, se solicitado.
-
----
-
-Projeto referente à Unidade 1 de Sistemas Embarcados.
-
+  
 ## Funcionamento
 - O ESP32 conecta ao Wi-Fi, se inscreve no tópico MQTT e aguarda comandos.
 - Ao receber `1`, acende o LED (GPIO2). Ao receber `0`, apaga o LED.
 
-## Código-fonte
-- O arquivo principal é `main/app_main.c`.
-- O código está comentado para facilitar o entendimento.
-
-## Vídeo de demonstração
-Inclua aqui o link do vídeo mostrando o funcionamento do projeto.
