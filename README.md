@@ -1,7 +1,5 @@
 # Projeto Unidade 1 - Controle de LED via MQTT5 no ESP32
 
-Repositório do projeto: [https://github.com/VicRyan007/MQTT-example](https://github.com/VicRyan007/MQTT-example)
-
 ## Descrição
 Este projeto implementa um cliente MQTT5 no ESP32 utilizando o ESP-IDF. O dispositivo se inscreve no tópico `/ifpe/ads/embarcados/esp32/led` e controla o LED onboard (GPIO2) conforme os comandos recebidos:
 - Envie `1` para acender o LED
