@@ -1,5 +1,7 @@
 # Projeto Unidade 1 - Controle de LED via MQTT5 no ESP32
 
+Repositório do projeto: [https://github.com/VicRyan007/MQTT-example](https://github.com/VicRyan007/MQTT-example)
+
 ## Descrição
 Este projeto implementa um cliente MQTT5 no ESP32 utilizando o ESP-IDF. O dispositivo se inscreve no tópico `/ifpe/ads/embarcados/esp32/led` e controla o LED onboard (GPIO2) conforme os comandos recebidos:
 - Envie `1` para acender o LED
@@ -15,9 +17,8 @@ O broker utilizado e validado é: `mqtt://test.mosquitto.org`
 - Acesso à internet via Wi-Fi 2.4GHz
 
 ### 2. Clonando o projeto
-Se estiver usando o GitHub:
 ```sh
-git clone <link-do-repositorio>
+git clone https://github.com/VicRyan007/MQTT-example.git
 cd mqtt5
 ```
 
@@ -26,17 +27,17 @@ Execute:
 ```sh
 idf.py menuconfig
 ```
-- Vá em **Example Connection Configuration**
+- Em **Example Connection Configuration**:
   - Configure o **WiFi SSID** (nome da sua rede Wi-Fi)
   - Configure o **WiFi Password** (senha da sua rede)
-- Vá em **Example Configuration**
+- Em **Example Configuration**:
   - Em **Broker URL**, coloque:
     ```
     mqtt://test.mosquitto.org
     ```
 - Salve e saia
 
-> **Atenção:** É fundamental que o ESP32 e o cliente MQTT (MQTT Explorer ou Mosquitto CLI) estejam usando o mesmo broker (`test.mosquitto.org`) e a mesma porta (`1883`).
+> É fundamental que o ESP32 e o cliente MQTT (MQTT Explorer) estejam usando o mesmo broker (`test.mosquitto.org`) e a mesma porta (`1883`).
 
 ### 4. Compilando e gravando no ESP32
 ```sh
@@ -57,16 +58,6 @@ idf.py -p COMx monitor
    - **Payload:** `1` (para acender) ou `0` (para apagar)
    - **Modo:** `raw`
 3. Clique em **PUBLISH**
-
-#### Usando o terminal (Mosquitto CLI)
-- Para acender o LED:
-  ```sh
-  mosquitto_pub -h test.mosquitto.org -t /ifpe/ads/embarcados/esp32/led -m 1
-  ```
-- Para apagar o LED:
-  ```sh
-  mosquitto_pub -h test.mosquitto.org -t /ifpe/ads/embarcados/esp32/led -m 0
-  ```
 
 ### 6. Observando o resultado
 - O LED azul (GPIO2) do ESP32 deve acender/apagar conforme o comando.
